@@ -25,11 +25,20 @@
         width: 100%;
         height: 100vh;
         color: black;
-        padding: 2rem;
+        padding: 1rem;
 
     }
 
-    section#about .content {
+    section#about .container{
+        width: 90%;
+        height: 100%;
+        background: aliceblue;
+        display: flex;
+        padding: 1rem;
+    
+    }
+
+    section#about  .container .content {
         width: 100%;
         height: auto;
         color: black;
@@ -37,7 +46,7 @@
     }
 
 
-    section#about .content:nth-child(2) {
+    section#about  .container .content:nth-child(2) {
         display: none;
         width: 50%;
         height: 100%;
