@@ -1,0 +1,13 @@
+/* FOR PHONE VIEW */
+@media screen and (max-width:750px) {
+    header .content{
+        visibility: hidden;
+        /* display: none; */
+     
+     }
+
+     header .icons i:nth-child(3){
+        display: block;
+    }
+    
+}
