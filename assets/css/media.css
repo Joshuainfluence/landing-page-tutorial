@@ -1,5 +1,6 @@
 /* FOR PHONE VIEW */
 @media screen and (max-width:750px) {
+
     header .content{
         visibility: hidden;
         /* display: none; */
@@ -9,5 +10,15 @@
      header .icons i:nth-child(3){
         display: block;
     }
+
+    header .logo h2{
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+     }
+
+     section#home{
+        background-size: cover;
+     }
     
 }
