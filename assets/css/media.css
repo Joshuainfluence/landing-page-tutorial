@@ -29,16 +29,16 @@
 
     }
 
-    section#about .container{
+    section#about .container {
         width: 90%;
         height: 100%;
         background: aliceblue;
         display: flex;
         padding: 1rem;
-    
+
     }
 
-    section#about  .container .content {
+    section#about .container .content {
         width: 100%;
         height: auto;
         color: black;
@@ -46,12 +46,20 @@
     }
 
 
-    section#about  .container .content:nth-child(2) {
+    section#about .container .content:nth-child(2) {
         display: none;
         width: 50%;
         height: 100%;
         background: url(../img/unnamed.png);
         background-size: cover;
+    }
+
+    section#testimonials {
+        padding: 2rem;
+    }
+
+    section#testimonials .container .content {
+        width: 100%;
     }
 
 }
