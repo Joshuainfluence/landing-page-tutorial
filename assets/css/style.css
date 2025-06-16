@@ -260,7 +260,7 @@ section#contact {
     padding: 4rem;
 }
 
-section#contact form{
+section#contact form {
     width: 70%;
     height: 70%;
     /* border: 1px solid red; */
@@ -270,7 +270,9 @@ section#contact form{
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
 
 }
-section#contact form input, textarea{
+
+section#contact form input,
+textarea {
     width: 90%;
     padding: 1rem 0.5rem 1rem 0.5rem;
     margin-top: 2rem;
@@ -279,7 +281,8 @@ section#contact form input, textarea{
     border: 1px solid #333;
 }
 
-section#contact form input, textarea:focus{
+section#contact form input,
+textarea:focus {
     width: 90%;
     padding: 1rem 0.5rem 1rem 0.5rem;
     margin-top: 2rem;
@@ -289,16 +292,20 @@ section#contact form input, textarea:focus{
 }
 
 
-section#contact form input[type=submit]{
+section#contact form input[type=submit] {
     background-color: black;
     color: white;
     border: none;
     transition: 0.3s ease-in;
 }
 
-section#contact form input[type=submit]:hover{
+section#contact form input[type=submit]:hover {
     background-color: #333;
     color: white;
     border: none;
     cursor: pointer;
+}
+
+section#contact h1 {
+    margin-top: 1rem;
 }
