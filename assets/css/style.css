@@ -304,6 +304,7 @@ section#contact form input[type=submit]:hover {
     color: white;
     border: none;
     cursor: pointer;
+    outline: none;
 }
 
 section#contact h1 {
