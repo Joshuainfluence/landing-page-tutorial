@@ -302,7 +302,7 @@ section#contact form input[type=submit] {
 section#contact form input[type=submit]:hover {
     background-color: #333;
     color: white;
-    border: none;
+    border: 1px solid grey;
     cursor: pointer;
     outline: none;
 }
